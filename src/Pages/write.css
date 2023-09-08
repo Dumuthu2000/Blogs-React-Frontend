@@ -1,0 +1,146 @@
+.writeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(to right, #cddafd, #ffffff, #cddafd);
+}
+.titleInput{
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 68.5%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+.reactQuill{
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+    width: 58%;
+    height: 300px;
+}
+.reactQuill .ql-header{
+    background: linear-gradient(to right, #cddafd, #ffffff);
+}
+.reactQuill .ql-editor{
+    background-color: #fff;
+}
+.reactQuill .ql-toolbar{
+    background-color: #fff;
+}
+.editorBlock{
+    display: flex;
+}
+.catogeryListItems{
+    text-decoration: none;
+}
+.catogerySection{
+    margin-top: 30px;
+    background-color: #fff;
+    width: 15%;
+    height: 340px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+}
+.catogeryTitle{
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.catogeries{
+    background-color: #ccc;
+    margin-top: 25px;
+    padding: 15px 0 15px 0;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.catogeries:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+input[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 15%;
+    margin-right: 8px;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+input[type="radio"]:checked {
+    border-color: #007bff;
+    background-color: black;
+  }
+.images{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+.uploadImages{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.imagesBlock{
+    display: flex;
+    flex-direction: column;
+}
+.imagesInput{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right: 140px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.uploadButton{
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px; 
+    cursor: pointer;
+    border: 1px solid #ccc;  
+}
+.uploadButton:hover{
+    background-color: #40916c;
+}
+.backButton{
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-bottom: 60px;
+    margin-right: 178px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px; 
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.backButton:hover{
+    background-color: #9d0208;
+}

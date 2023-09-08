@@ -1,0 +1,22 @@
+.numbersContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 280px;
+    background-color: #212529;
+}
+.numbering{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 25PX;
+    font-weight: bold;
+    color: #fff;
+}
+.titleContent{
+    font-size: 80px;
+    font-weight: bold;
+    color: #00b4d8;
+}

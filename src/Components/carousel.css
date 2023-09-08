@@ -1,0 +1,22 @@
+.SlidingImages{
+    height: 350px;
+    width: 600px;
+    filter: brightness(0.6);
+}
+/* Add a wrapper around the carousel slide to position the captions */
+.slide {
+    position: relative;
+  }
+  
+  /* Style the captions */
+  .caption {
+    position: absolute;
+    bottom: 20px; /* Adjust the value to control the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,38 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+
+}
+.footerSec{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.featureName{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.links{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.links:hover{
+    color: red;
+}
+.iconsList{
+    display: flex;
+}
+.icons{
+    margin-right: 20px;   
+}
+.icons:hover{
+    color: red;
+    cursor: pointer;
+
+}

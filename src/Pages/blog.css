@@ -1,0 +1,74 @@
+.mainsContainer{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 275px;
+    margin-bottom: 20px;
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+.blogsTitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 20px;
+}
+.authorDetail{
+    display: flex;
+    margin-left: 20px;
+}
+.authorName{
+    text-decoration: none;
+}
+.contentBlockNaming{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.blogImages{
+    width: 280px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.blogImages:hover{
+    opacity: 0.9;
+  transform: scale(1.05);
+  transition: opacity 0.4s, transform 0.4s;
+}
+.blogContent{
+    text-align: justify;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttonSection{
+    margin-left: 55%;
+}
+.updateButton{
+    margin-right: 5px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #40916c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteButton{
+    margin-right: 5px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteButton:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.updateButton:hover{
+    background-color: rgba(0,0,0,0.8);
+}
